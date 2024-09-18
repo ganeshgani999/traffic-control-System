@@ -1,0 +1,15 @@
+.red-light {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  transition: background-color 1s;
+}
+
+.red-light.active {
+  background-color: red;
+}
+
+.red-light.inactive {
+  background-color: gray;
+}
